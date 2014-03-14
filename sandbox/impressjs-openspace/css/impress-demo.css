@@ -336,7 +336,7 @@ svg .link {
 }
 .footnote {
     position: absolute;
-    bottom: 10px;
+    bottom: 0px;
     right: 10px;
     font-size: 32px;
     color: #aaa;

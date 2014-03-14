@@ -25,6 +25,8 @@
         <h1 style="font-family: 'News Cycle'; color: rgb(75, 213, 238);">A long time ago in a galaxy far,<br/> far
             away....
         </h1>
+
+        <div class="footnote">... bear with me the next slide takes a short while to render</div>
     </div>
 
     <div id="nodelist" class="step slide" data-x="850" data-y="0" data-rotate="0">
@@ -51,6 +53,8 @@
                 custodian of the secret materials that can <br/>
                 save our presentations and restore freedom to the desktop ...
             </p>
+
+            <p></p>
 
         </div>
     </div>
@@ -117,9 +121,54 @@
     </div>
     <div id="directtories" class="step" data-x="-1050" data-y="1500" data-z="-1000">
         <img src="images/directorystructure.png"/>
+        <div class="footnote">hint: use the source, Luke!</div>
     </div>
 
+    <div id="indexpage" class="step" data-x="850" data-y="0" data-rotate="-90">
+        <h1>Now we need to set up index.html</h1>
+    </div>
+    <div id="highlevelpage" class="step" data-x="1850" data-y="0" data-rotate="-90">
+        <pre><span class="highlight language-xml">
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;!-- put stylesheets, fonts, title etc here --&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
 
+            &lt;div id="impress"&gt;
+                &lt;!-- magic happens here --&gt;
+            &lt;/div&gt;
+
+            &lt;!-- initialise impress --&gt;
+            &lt;script src="js/impress.js"&gt;&lt;/script&gt;
+            &lt;script&gt;impress().init();&lt;/script&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+        </span></pre>
+        <div class="footnote">high level structure</div>
+    </div>
+    <div id="headers" class="step" data-x="1850" data-y="0" data-rotate="-90" data-rotate-x="180">
+        <pre><span class="highlight language-xml">
+        &lt;head&gt;
+            &lt;meta charset="utf-8"/&gt;
+            &lt;meta name="viewport" content="width=1024"/&gt;
+            &lt;title&gt;impress.js openspace&lt;/title&gt;
+            &lt;link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100'
+                    rel='stylesheet' type='text/css'&gt;
+            &lt;link href='http://fonts.googleapis.com/css?family=News+Cycle'
+                    rel='stylesheet' type='text/css'&gt;
+            &lt;link href="css/impress-demo.css" rel="stylesheet"/&gt;
+            &lt;link href="css/zenburn.css" rel="stylesheet"/&gt;
+        &lt;/head&gt;
+        </span></pre>
+        <div class="footnote">an example header</div>
+    </div>
+
+    <div id="summary" class="step" data-x="3000" data-y="1500" data-scale="10">
+        <h1>impress.js</h1>
+        <div class="footnote"> ... impressed ?</div>
+    </div>
 </div>
 
 
