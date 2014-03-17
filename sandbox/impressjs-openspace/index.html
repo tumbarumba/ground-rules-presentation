@@ -97,16 +97,19 @@
 
     <div id="wikimarkup" class="step" style="text-align: center" data-x="150" data-y="0" data-z="-13000">
         <img src="images/apply-wiki-markup.png"/>
+
         <div class="footnote">.. now update the wiki markup</div>
     </div>
 
     <div id="applystyle" class="step" style="text-align: center" data-x="0" data-y="0" data-z="-14000">
         <img src="images/apply-style.png"/>
+
         <div class="footnote">.. apply a style</div>
     </div>
 
     <div id="review" class="step" style="text-align: center" data-x="150" data-y="0" data-z="-15000">
         <img src="images/review-githubio.png"/>
+
         <div class="footnote">.. release it http://suggitpe.github.io/</div>
     </div>
 
@@ -121,6 +124,7 @@
     </div>
     <div id="directtories" class="step" data-x="-1050" data-y="1500" data-z="-1000">
         <img src="images/directorystructure.png"/>
+
         <div class="footnote">hint: use the source, Luke!</div>
     </div>
 
@@ -165,10 +169,121 @@
         <div class="footnote">an example header</div>
     </div>
 
-    <div id="summary" class="step" data-x="3000" data-y="1500" data-scale="10">
+    <div id="itsacanvas" class="step" data-x="0" data-y="0">
+        <h1>Now for the content</h1>
+        <p>Imagine that this is just one big canvas</p>
+        <div class="footnote">we are at x=0; y=0</div>
+    </div>
+
+    <div id="moveup" class="step" data-x="0" data-y="-1000">
+        <p>The position of each slide is defined in the div metadata, the last one is at:</p>
+        <pre><span class="highlight language-xml">
+    &lt;div data-x="0" data-y="0"&gt;
+        </span></pre>
+        <p>moving up... this one is at:</p>
+        <pre><span class="highlight language-xml">
+    &lt;div data-x="0" data-y="-1000"&gt;
+        </span></pre>
+        <div class="footnote">we are at x=0; y=-1000</div>
+    </div>
+
+    <div id="moveleft" class="step" data-x="-1000" data-y="-1000">
+        <p>Just moved left across the canvas</p>
+        <pre><span class="highlight language-xml">
+    &lt;div data-x="-1000" data-y="-1000"&gt;
+        </span></pre>
+        <div class="footnote">we are at x=-1000; y=-1000</div>
+    </div>
+
+    <div id="moveback" class="step" data-x="0" data-y="0">
+        <p>And now back to the original position</p>
+        <pre><span class="highlight language-xml">
+    &lt;div data-x="0" data-y="0"&gt;
+        </span></pre>
+        <div class="footnote">we are at x=0; y=0</div>
+    </div>
+
+    <div id="moveforward" class="step" data-x="0" data-y="0" data-z="-1000">
+        <p>We all know about the third dimension right?</p>
+        <pre><span class="highlight language-xml">
+    &lt;div data-x="0" data-y="0" data-z="-1000"&gt;
+        </span></pre>
+        <div class="footnote">we are at x=0; y=0; z="-1000"</div>
+    </div>
+
+    <div id="moveforwardagain" class="step" data-x="0" data-y="0" data-z="-10000">
+        <p>The 3D canvas is huge ...</p>
+        <pre><span class="highlight language-xml">
+    &lt;div data-x="0" data-y="0" data-z="-10000"&gt;
+        </span></pre>
+        <div class="footnote">we are at x=0; y=0; z="-10000"</div>
+    </div>
+
+    <div id="movebackagain" class="step" data-x="0" data-y="0" data-z="0">
+        <p>But we can always recenter</p>
+        <pre><span class="highlight language-xml">
+    &lt;div data-x="0" data-y="0" data-z="0"&gt;
+        </span></pre>
+        <div class="footnote">we are at x=0; y=0; z=0</div>
+    </div>
+
+    <div id="spin1" class="step" data-x="0" data-y="0" data-z="0" data-rotate-x="720" data-rotate-y="0">
+        <p>This is how to make your audience seasick</p>
+        <pre><span class="highlight language-xml">
+    &lt;div data-x="0" data-y="0" data-z="0" data-rotate-x="720" data-rotate-y="0"&gt;
+        </span></pre>
+        <div class="footnote">we are at x=0; y=0; z=0; rotate-x=720; rotate-y=0</div>
+    </div>
+
+    <div id="spin2" class="step" data-x="0" data-y="0" data-z="0" data-rotate-x="720" data-rotate-y="720">
+        <p>This is how to make your audience seasick</p>
+        <pre><span class="highlight language-xml">
+    &lt;div data-x="0" data-y="0" data-z="0" data-rotate-x="720" data-rotate-y="720"&gt;
+        </span></pre>
+        <div class="footnote">we are at x=0; y=0; z=0; rotate-x=720; rotate-y=720</div>
+    </div>
+
+    <div id="recenter" class="step" data-x="0" data-y="0" data-z="0">
+        <p>But we can always recenter ...</p>
+        <div class="footnote">we are at x=0; y=0; z=0</div>
+    </div>
+
+    <div id="bigcircle1" class="step" data-x="0" data-y="0" data-z="-10000" data-rotate="0">
+        <p>If we combine them we can do some fancy things like a circle</p>
+        <div class="footnote">we are at x=0; y=0; rotate=0</div>
+    </div>
+
+    <div id="bigcircle2" class="step" data-x="-1000" data-y="-1000" data-z="-10000" data-rotate="-90">
+        <p>If we combine them we can do some fancy things like a circle</p>
+
+        <div class="footnote">we are at x=-1000; y=-1000; rotate=-90</div>
+    </div>
+
+    <div id="bigcircle3" class="step" data-x="-2000" data-y="0" data-z="-10000" data-rotate="-180">
+        <p>If we combine them we can do some fancy things like a circle</p>
+        <div class="footnote">we are at x=-2000; y=0; rotate=-180</div>
+    </div>
+
+    <div id="bigcircle4" class="step" data-x="-1000" data-y="1000" data-z="-10000" data-rotate="-270">
+        <p>If we combine them we can do some fancy things like a circle</p>
+        <div class="footnote">we are at x=-1000; y=1000; rotate=-270</div>
+    </div>
+
+    <div id="bigcircle5" class="step" data-x="-1000" data-y="0" data-z="-10000" data-rotate="-360">
+        <p>And back to the middle of the circle</p>
+        <div class="footnote">we are at x=-1000; y=0; rotate=-360</div>
+    </div>
+
+    <div id="summary0" class="step" data-x="0" data-y="0" data-scale="10">
         <h1>impress.js</h1>
+
+    </div>
+
+    <div id="summary1" class="step" data-x="0" data-y="0" data-scale="1">
+
         <div class="footnote"> ... impressed ?</div>
     </div>
+
 </div>
 
 
