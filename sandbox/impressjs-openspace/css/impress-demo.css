@@ -342,11 +342,11 @@ svg .link {
 }
 
 #your-go .its {
-    -webkit-transform: translateZ(290px);
-    -moz-transform:    translateZ(290px);
-    -ms-transform:     translateZ(290px);
-    -o-transform:      translateZ(290px);
-    transform:         translateZ(290px);
+    -webkit-transform: translateZ(-290px);
+    -moz-transform:    translateZ(-290px);
+    -ms-transform:     translateZ(-290px);
+    -o-transform:      translateZ(-290px);
+    transform:         translateZ(-290px);
 
 }
 
