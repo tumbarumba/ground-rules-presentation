@@ -392,11 +392,11 @@ svg .link {
 }
 
 #your-go .go {
-    -webkit-transform: translateZ(-1000px);
-    -moz-transform:    translateZ(-1000px);
-    -ms-transform:     translateZ(-1000px);
-    -o-transform:      translateZ(-1000px);
-    transform:         translateZ(-1000px);
+    -webkit-transform: translateZ(-2000px);
+    -moz-transform:    translateZ(-2000px);
+    -ms-transform:     translateZ(-2000px);
+    -o-transform:      translateZ(-2000px);
+    transform:         translateZ(-2000px);
 }
 
 #your-go .footnote {
