@@ -323,7 +323,7 @@ svg .link {
     -moz-transform:    translateZ(40px);
     -ms-transform:     translateZ(40px);
     -o-transform:      translateZ(40px);
-    transform:        translateZ(40px);
+    transform:         translateZ(40px);
 
     -webkit-transition: 4s;
     -moz-transition:    4s;
