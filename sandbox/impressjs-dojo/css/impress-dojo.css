@@ -192,14 +192,6 @@ a:focus {
 
 .impress-enabled .step.active { opacity: 1 }
 
-/*
-    These 'slide' step styles were heavily inspired by HTML5 Slides:
-    http://html5slides.googlecode.com/svn/trunk/styles.css
-
-    ;)
-
-    They cover everything what you see on first three steps of the demo.
-*/
 .slide {
     display: block;
     width: 900px;
@@ -226,17 +218,6 @@ a:focus {
 .slide q strong {
     white-space: nowrap;
 }
-
-/*
-    And now we start to style each step separately.
-
-    I agree that this may be not the most efficient, object-oriented and
-    scalable way of styling, but most of steps have quite a custom look
-    and typography tricks here and there, so they had to be styled separately.
-
-    First is the title step with a big <h1> (no room for padding) and some
-    3D positioning along Z axis.
-*/
 
 p {
     font-size:30px;
@@ -270,7 +251,6 @@ h2 {
     font-size:34px;
 }
 
-
 svg.fadein {
     opacity: 0;
 }
@@ -301,125 +281,15 @@ svg .link {
     padding-left: 20px;
     -webkit-transition-timing-function: linear;
     -webkit-transition-property: all;
-    -webkit-transform: translateZ(550px) translateY(550px) rotateX(45deg);
+    -webkit-transform: translateZ(500px) translateY(500px) rotateX(45deg);
     -webkit-transition-duration: 0s;
 }
-
 #nodelist.present .node-crawl {
-    -webkit-transition-duration: 240s;
+    -webkit-transition-duration: 120s;
     -webkit-transform: translateZ(-5000px) translateY(-5000px) rotateX(45deg);
 }
 
 .node-crawl * { color: #ff6 !important; }
-
-#your-go p {
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style:    preserve-3d; /* Y U need this Firefox?! */
-    -ms-transform-style:     preserve-3d;
-    -o-transform-style:      preserve-3d;
-    transform-style:         preserve-3d;
-}
-#your-go span,
-#your-go b {
-    display: inline-block;
-    -webkit-transform: translateZ(40px);
-    -moz-transform:    translateZ(40px);
-    -ms-transform:     translateZ(40px);
-    -o-transform:      translateZ(40px);
-    transform:         translateZ(40px);
-
-    -webkit-transition: 4s;
-    -moz-transition:    4s;
-    -ms-transition:     4s;
-    -o-transition:      4s;
-    transition:         4s;
-}
-
-#your-go .now {
-
-    -webkit-transform: translateY(-180px);
-    -moz-transform:    translateY(-180px);
-    -ms-transform:     translateY(-180px);
-    -o-transform:      translateY(-180px);
-    transform:         translateY(-180px);
-}
-
-#your-go .its {
-    -webkit-transform: translateZ(-290px);
-    -moz-transform:    translateZ(-290px);
-    -ms-transform:     translateZ(-290px);
-    -o-transform:      translateZ(-290px);
-    transform:         translateZ(-290px);
-
-}
-
-#your-go .your {
-    -webkit-transform: translateZ(500px);
-    -moz-transform:    translateZ(500px);
-    -ms-transform:     translateZ(500px);
-    -o-transform:      translateZ(500px);
-    transform:         translateZ(500px);
-}
-
-#your-go .turn {
-    -webkit-transform: translateY(190px);
-    -moz-transform:    translateY(190px);
-    -ms-transform:     translateY(190px);
-    -o-transform:      translateY(190px);
-    transform:         translateY(190px);
-
-}
-
-#your-go .to {
-    -webkit-transform: translateY(-190px);
-    -moz-transform:    translateY(-190px);
-    -ms-transform:     translateY(-190px);
-    -o-transform:      translateY(-190px);
-    transform:         translateY(-190px);
-}
-
-#your-go .have {
-    -webkit-transform: translateZ(190px);
-    -moz-transform:    translateZ(190px);
-    -ms-transform:     translateZ(190px);
-    -o-transform:      translateZ(190px);
-    transform:         translateZ(190px);
-}
-
-#your-go .a {
-    -webkit-transform: translateY(-90px);
-    -moz-transform:    translateY(-90px);
-    -ms-transform:     translateY(-90px);
-    -o-transform:      translateY(-90px);
-    transform:         translateY(-90px);
-}
-
-#your-go .go {
-    -webkit-transform: translateZ(-2000px);
-    -moz-transform:    translateZ(-2000px);
-    -ms-transform:     translateZ(-2000px);
-    -o-transform:      translateZ(-2000px);
-    transform:         translateZ(-2000px);
-}
-
-#your-go .footnote {
-    font-size: 32px;
-
-    -webkit-transform: translateZ(-90px);
-    -moz-transform:    translateZ(-90px);
-    -ms-transform:     translateZ(-90px);
-    -o-transform:      translateZ(-90px);
-    transform:         translateZ(-90px);
-}
-
-#your-go.present span,
-#your-go.present b {
-    -webkit-transform: translateZ(0px);
-    -moz-transform:    translateZ(0px);
-    -ms-transform:     translateZ(0px);
-    -o-transform:      translateZ(0px);
-    transform:         translateZ(0px);
-}
 
 .message {
     margin: auto;
