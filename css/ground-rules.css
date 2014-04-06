@@ -126,6 +126,16 @@ p {
     color: #555;
 }
 
+h1 {
+    font-size:40px;
+    line-height: 50px;
+    margin-bottom: 30px
+}
+
+h2 {
+    font-size:34px;
+    line-height: 40px;
+}
 
 /*
     Because the main point behind the impress.js demo is to demo impress.js
@@ -246,10 +256,6 @@ p {
     word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
 
-h2 {
-    font-size:34px;
-}
-
 .footnote {
     position: absolute;
     bottom: 0px;
@@ -283,6 +289,19 @@ h2 {
     font-size: 50px;
     padding-left: 30px;
     line-height: 60px;
+}
+
+.again {
+    opacity: 0;
+    -webkit-transition: opacity 0.5s 1s;
+    -moz-transition:    opacity 0.5s 1s;
+    -ms-transition:     opacity 0.5s 1s;
+    -o-transition:      opacity 0.5s 1s;
+    transition:         opacity 0.5s 1s;
+}
+
+.active .again {
+    opacity: 1;
 }
 
 #imagine p {
