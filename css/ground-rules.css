@@ -113,11 +113,19 @@ a {
     transition:         0.5s;
 }
 
+
 a:hover,
 a:focus {
     background: rgba(255,255,255,1);
     text-shadow: -1px -1px 2px rgba(100,100,100,0.5);
 }
+
+p {
+    font-size:30px;
+    margin: 30px 20px;
+    color: #555;
+}
+
 
 /*
     Because the main point behind the impress.js demo is to demo impress.js
@@ -227,11 +235,6 @@ a:focus {
     white-space: nowrap;
 }
 
-p {
-    font-size:30px;
-    margin: 30px 20px;
-    color: #555;
-}
 .flowjson {
     font-size: 16px;
     font-family: monospace;
@@ -242,6 +245,30 @@ p {
     white-space: -o-pre-wrap;    /* Opera 7 */
     word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
+
+h2 {
+    font-size:34px;
+}
+
+.footnote {
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    font-size: 32px;
+    color: #555;
+}
+
+/*
+    And now we start to style each step separately.
+
+    I agree that this may be not the most efficient, object-oriented and
+    scalable way of styling, but most of steps have quite a custom look
+    and typography tricks here and there, so they had to be styled separately.
+
+    First is the title step with a big <h1> (no room for padding) and some
+    3D positioning along Z axis.
+*/
+
 #title * {
     text-align: center;
 }
@@ -257,56 +284,6 @@ p {
     padding-left: 30px;
     line-height: 60px;
 }
-
-h2 {
-    font-size:34px;
-}
-
-
-svg.fadein {
-    opacity: 0;
-}
-svg .link {
-    fill: none;
-    stroke-linejoin: round;
-    stroke: #eee;
-    stroke-width: 5px;
-    stroke-dasharray: 5, 30;
-}
-.present svg.fadein {
-    -webkit-transition-delay: 2s;
-    -webkit-transition-duration: 1s;
-    -webkit-transition-property: opacity;
-    opacity: 1;
-}
-
-
-.footnote {
-    position: absolute;
-    bottom: 0px;
-    right: 10px;
-    font-size: 32px;
-    color: #555;
-}
-
-.node-crawl {
-    padding-left: 20px;
-    -webkit-transition-timing-function: linear;
-    -webkit-transition-property: all;
-    -webkit-transform: translateZ(550px) translateY(550px) rotateX(45deg);
-    -webkit-transition-duration: 0s;
-}
-
-/*
-    And now we start to style each step separately.
-
-    I agree that this may be not the most efficient, object-oriented and
-    scalable way of styling, but most of steps have quite a custom look
-    and typography tricks here and there, so they had to be styled separately.
-
-    First is the title step with a big <h1> (no room for padding) and some
-    3D positioning along Z axis.
-*/
 
 #imagine p {
     -webkit-transform-style: preserve-3d;
