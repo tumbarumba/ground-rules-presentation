@@ -84,8 +84,8 @@ table {
 body {
     font-family: 'Roboto Slab';
     min-height: 740px;
-    background: #676767;
-    color: #eee;
+    background: #c0c0c0;
+    color: #333;
 }
 
 /*
@@ -227,21 +227,10 @@ a:focus {
     white-space: nowrap;
 }
 
-/*
-    And now we start to style each step separately.
-
-    I agree that this may be not the most efficient, object-oriented and
-    scalable way of styling, but most of steps have quite a custom look
-    and typography tricks here and there, so they had to be styled separately.
-
-    First is the title step with a big <h1> (no room for padding) and some
-    3D positioning along Z axis.
-*/
-
 p {
     font-size:30px;
     margin: 30px 20px;
-    color: #ddd;
+    color: #555;
 }
 .flowjson {
     font-size: 16px;
@@ -253,17 +242,20 @@ p {
     white-space: -o-pre-wrap;    /* Opera 7 */
     word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
-.title h1 {
+#title * {
+    text-align: center;
+}
+
+#title h1 {
     margin-top: 50px;
     line-height: 100px;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bold;
 }
-.title h2 {
-    color: #aaa;
-    font-size: 34px;
+#title h2 {
+    font-size: 50px;
     padding-left: 30px;
-
+    line-height: 60px;
 }
 
 h2 {
@@ -294,7 +286,7 @@ svg .link {
     bottom: 0px;
     right: 10px;
     font-size: 32px;
-    color: #aaa;
+    color: #555;
 }
 
 .node-crawl {
@@ -305,12 +297,16 @@ svg .link {
     -webkit-transition-duration: 0s;
 }
 
-#nodelist.present .node-crawl {
-    -webkit-transition-duration: 240s;
-    -webkit-transform: translateZ(-5000px) translateY(-5000px) rotateX(45deg);
-}
+/*
+    And now we start to style each step separately.
 
-.node-crawl * { color: #ff6 !important; }
+    I agree that this may be not the most efficient, object-oriented and
+    scalable way of styling, but most of steps have quite a custom look
+    and typography tricks here and there, so they had to be styled separately.
+
+    First is the title step with a big <h1> (no room for padding) and some
+    3D positioning along Z axis.
+*/
 
 #imagine p {
     -webkit-transform-style: preserve-3d;
