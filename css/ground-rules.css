@@ -264,6 +264,19 @@ h2 {
     color: #555;
 }
 
+.highlight {
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+}
+
+.rule {
+    line-height: 1.25em;
+    font-size: 200%;
+    color: black;
+    text-align: center;
+}
+
 /*
     And now we start to style each step separately.
 
