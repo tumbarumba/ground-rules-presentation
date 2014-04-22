@@ -313,6 +313,10 @@ h2 {
     transition:         opacity 0.5s 1s;
 }
 
+#model1-vs-model2 {
+    text-align: center;
+}
+
 .active .again {
     opacity: 1;
 }
