@@ -1,0 +1,158 @@
+Single Loop Learning
+====================
+
+Learning involves the detection and correction of error
+
+Single loop learning seems to be present when goals, value and frameworks are taken for granted.
+
+The emphasis is on 'techniques and making techniques more efficient'
+
+
+Double Loop Learning
+====================
+
+Double-loop learning, in contrast, ‘involves questioning the role of the framing and learning systems which underlie actual goals and strategies'
+
+Double-loop learning is more creative and reflexive, and involves consideration notions of the good. Reflection here is more fundamental: the basic assumptions behind ideas or policies are confronted… hypotheses are publicly tested… processes are disconfirmable not self-seeking
+
+
+Model I vs Model II
+===================
+
+Espoused Theories (what people say they value)
+ versus
+Theories-in-Use (what people actually value in practice)
+
+
+Model I
+=======
+
+Just talk through the slides
+
+Model II
+========
+
+The significant features of Model II include the ability to call upon good quality data and to make inferences. It looks to include the views and experiences of participants rather than seeking to impose a view upon the situation. Theories should be made explicit and tested, positions should be reasoned and open to exploration by others. In other words, Model II can be seen as dialogical – and more likely to be found in settings and organizations that look to shared leadership. It looks to:
+- Emphasize common goals and mutual influence.
+- Encourage open communication, and to publicly test assumptions and beliefs.
+- Combine advocacy with inquiry
+
+
+Mutual Learning Values
+======================
+
+Transparency: you share all relevant information, including your thoughts, feelings, and intentions.
+
+Curiosity: you are genuinely interested in others’ views and seek them out so that you and others can learn.
+
+Informed choice: you act in ways that maximize others’ and your own abilities to make decisions based on relevant information.
+
+Accountability: you take responsibility for your actions and the short- and long-term consequences of them.
+
+Compassion: you temporarily suspend judgment so that you can appreciate your own and other people’s situations. You have a genuine concern for others’ needs as well as your own. When you act with compassion, you infuse the other core values with your intent to understand, empathize with, and help others.
+
+
+Mutual Learning Assumptions
+===========================
+
+With these assumptions, you become curious about what others know that you don’t, open to exploring and learning from conflicts instead of trying to control and win them, and more generous in thinking about what motivates others to act differently from you.
+
+
+Rule 1: State views and ask genuine questions
+=============================================
+
+Stating your views and asking genuine questions means sharing your thinking, including your reasoning and intent, and inviting others to comment.
+
+Questions need to be genuine - one that stems from curiousity.
+
+"Do you really think that will work?"
+
+"I’m not seeing how this will work because . . . . What are you seeing that leads you to think it will work?"
+
+Example: "I think we should start the project with a small number of key customers so that we can identify the problems and fix them before we scale up the program. What concerns, if any, do you have with starting small?"
+
+
+Rule 2: Share all relevant information
+======================================
+
+You present all information that might affect how people solve a problem or make a decision.
+
+Sharing relevant information includes presenting details that do not support your preferred solution.
+
+Example: "Although I think we should delay the project until January because it will balance our workload, Maureen says that our costs will increase by 4 percent if we wait."
+
+
+Rule 3: Use specific examples and agree what important words mean
+=================================================================
+
+When you give specific examples, you name people, places, things, events, and what people said and did. This enables others to independently determine whether they agree with your information and reasoning.
+
+"I think some of us are not following through on our project commitments"
+
+"Jay and Lily, I didn’t receive your sections of the project report. Did you complete and email them to everyone on the team?"
+
+This is another example of how the ground rules involve changing how you think. Instead of thinking that by identifying people you are putting them on the spot, you could view this step as being transparent, accountable, curious, and compassionate.
+
+Example: "Let me give you an example of what I mean by taking initiative. Yesterday in the team meeting, when I asked if the project figures had been updated since last week, you said no. I think if you had taken initiative, you would be updating them regularly without my asking."
+
+
+Rule 4: Explain reasoning and intent
+====================================
+
+"I want to be clear about why I’m suggesting this. I don’t think we’re dysfunctional. I think we perform well and that we can be more efficient and generate even better ideas with more support. I’m happy to give you examples
+of what I mean"
+
+Example: "The reason I am asking is . . ."
+         "Here’s how I reached my decision: . . ."
+         "Here’s what led me to do this: . . ."
+
+
+Rule 5: Focus on interests, not positions
+=========================================
+
+"Getting to Yes" - book that uses this rule
+
+Have you ever been in a meeting where people try unsuccessfully to get buy-in to their solutions? The first person shares his solution and people tell him why it won’t work. Then the second person speaks and her idea is shot down. When it’s your turn, the same thing happens. The team either reaches an impasse, agrees on a compromise that pleases no one, or the leader takes the decision away from the team.
+
+Positions are often in conflict, even when interests are compatible.
+
+How to focus on interests:
+- Identify interests
+- Clarify and agree on interests
+- Generate positional statements that meet the interests
+- Select a solution and implement it
+
+Example when someone is focused on a position: "What is it about that solution that’s important to you? I’m asking because if we can identify this, we can help meet your needs."
+
+
+Rule 6: Test assumptions and inferences
+=======================================
+
+When you draw a conclusion about things you don’t know based on things you do know, you are making an inference.
+
+When you simply take something for granted, without any information, you are making an assumption.
+
+Ladder of inference:
+
+0: lots of data, too much to process!
+1: select data
+2: describe the data
+3: explain the data  |
+4: evalue the data   | assumptions
+5: propose actions   |
+
+To test your inference, you first need to be aware that you’re making one. Then identify what the other person(s) said or did that led you to make your inference. Now you’re ready to test it. "I think you said that you were taking away the analyses from my team. Did I understand you correctly?" If your manager says yes, you continue, "I'm thinking that you’re concerned about my team’s performance on this. Am I mistaken?"
+
+
+Rule 7: Jointly design next steps
+=================================
+
+When you jointly design next steps, you make decisions about what to do next by involving others rather than deciding privately and unilaterally.
+
+Using this ground rule increases the likelihood that people will be committed to the discussion or solution.
+
+
+Rule 8: Discuss undiscussable issues
+====================================
+
+Example: "I want to raise what might be a difficult issue and get your reactions. I’m not trying to put anyone on the spot, but instead trying for us to work better as a team. Here is what I’ve seen and what I think the issue is. [State your relevant information]. How do others see this?"
